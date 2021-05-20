@@ -1,0 +1,52 @@
+body
+{
+  color: white;
+  background: #c0d3ff;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #snapshot
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+
+#heading{
+  border-radius: 20px;
+  font-size: 25px;
+  letter-spacing: 5px;
+  box-shadow: -45px 9px 14px 0px rgba(225,18,18,0.75);
+-webkit-box-shadow: -45px 9px 14px 0px rgba(225,18,18,0.75);
+-moz-box-shadow: -45px 9px 14px 0px rgba(225,18,18,0.75);
+}
+
+label{
+  
+  background-color: white; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fbff00, #d82218); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fbff00, #d82218); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  font-size: 22px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
